@@ -110,4 +110,35 @@ nav ul li a {
   .header-content {
     bottom: 20%;
   }
+}
+.offer-title {
+  text-align: center;
+  margin: 10px;
+}
+.offer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.offer-single {
+  padding: 1.5rem;
+  max-width: 300px;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 24px -7px rgb(205, 206, 219);
+}
+.offer-name {
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+.offer-priceCtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offer-priceDetails {
+  background-color: #81408c;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
 }/*# sourceMappingURL=style.css.map */

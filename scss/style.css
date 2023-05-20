@@ -32,7 +32,6 @@ nav {
   background-color: transparent;
   position: sticky;
   z-index: 100;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 nav ul {
   display: flex;
@@ -50,9 +49,17 @@ nav ul li a {
   font-size: 20px;
 }
 
-@container (min-width: 400px) {
-  nav {
-    background-color: red;
+@media screen and (min-width: 450px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 750px) {
+  nav ul {
+    flex-direction: row;
+    gap: 50px;
   }
 }
 header video {

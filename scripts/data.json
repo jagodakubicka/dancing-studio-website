@@ -1,0 +1,12 @@
+{
+ "offer": [
+  {"img": "./assets/img/card-img-1.jpg",
+  "name": "lekcje indywidualne",
+  "desc": "",
+  "price": 50,
+  "time": 60
+  },{
+
+  }
+ ]
+}

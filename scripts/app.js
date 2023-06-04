@@ -1,10 +1,13 @@
 const menuList = document.querySelector('.nav-menu');
 const menuBtn = document.querySelector('.nav-btn');
-const btnImg  = document.querySelector('#nav-btn')
+const btnImg  = document.querySelector('#nav-btn');
+
+const windowWidth = window.screen
 
 function checkScreenWidth(){
  if(window.screen.width >= 450){
  menuList.classList.remove('hide-nav')
+ console.log('changed')
 }
 }
 console.log(screen.width)
@@ -13,5 +16,4 @@ const toggleMenu = () => {
 }
 
 menuBtn.addEventListener('click', () => toggleMenu())
-
-checkScreenWidth();
+windowWidth.addEventListener('resize', () => checkScreenWidth())

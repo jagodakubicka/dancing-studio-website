@@ -18,17 +18,39 @@ nav{
      font-size: 20px;
     }
    }
+   
  }
-
+button{
+  padding: .5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
  
 }
-
+#show-menu{
+  width:40px;
+  height: 40px;
+}
+.show-nav{
+  display: flex;
+}
+.hide-nav{
+  display: none;
+}
 @media screen and (min-width: 450px){
  nav{
   ul{
+    display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+  }
+  button{
+    display: none;
   }
  }
 }

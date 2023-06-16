@@ -1,12 +1,19 @@
 {
- "offer": [
+ "offers": [
   {"img": "./assets/img/card-img-1.jpg",
   "name": "lekcje indywidualne",
   "desc": "",
   "price": 50,
-  "time": 60
-  },{
-
+  "time": 60,
+  "id": 1
+  },
+  {
+   "img": "./assets/img/card-img-2.jpg",
+  "name": "zajęcia dla dzieci",
+  "desc": "",
+  "price": 30,
+  "time": 60,
+  "id": 2
   }
  ]
 }

@@ -27,6 +27,14 @@ img, video {
   max-width: 100%;
 }
 
+.nav-mobile {
+  display: block;
+}
+
+.nav-desktop {
+  display: none;
+}
+
 nav {
   text-align: center;
   background-color: transparent;
@@ -47,6 +55,7 @@ nav ul li a {
   font-size: 20px;
   color: aliceblue;
   font-size: 20px;
+  padding: 20px;
 }
 nav button {
   padding: 0.5rem;
@@ -72,6 +81,12 @@ nav button {
 }
 
 @media screen and (min-width: 450px) {
+  .nav-mobile {
+    display: none;
+  }
+  .nav-desktop {
+    display: block;
+  }
   nav ul {
     display: flex;
     flex-direction: row;

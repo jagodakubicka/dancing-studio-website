@@ -1,9 +1,14 @@
+.nav-mobile{
+  display: block;
+ }
+ .nav-desktop{
+  display: none;
+ }
 nav{
  text-align: center;
  background-color: transparent;
  position: sticky;
  z-index: 100;
- //background-color: rgba(0, 0, 0, 0.5);
  ul{
    display: flex;
    flex-direction: column;
@@ -16,6 +21,7 @@ nav{
      font-size: 20px;
      color: aliceblue;
      font-size: 20px;
+     padding: 20px;
     }
    }
    
@@ -42,6 +48,12 @@ button{
   display: none;
 }
 @media screen and (min-width: 450px){
+  .nav-mobile{
+  display: none;
+ }
+ .nav-desktop{
+  display: block;
+ }
  nav{
   ul{
     display: flex;

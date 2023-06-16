@@ -7,3 +7,5 @@ const toggleMenu = () => {
 }
 
 menuBtn.addEventListener('click', () => toggleMenu())
+
+const offerCtn = document.querySelector('#offerCtn');

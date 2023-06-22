@@ -80,7 +80,7 @@ nav button {
   display: none;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 650px) {
   .nav-mobile {
     display: none;
   }

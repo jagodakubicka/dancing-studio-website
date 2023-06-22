@@ -8,4 +8,20 @@ const toggleMenu = () => {
 
 menuBtn.addEventListener('click', () => toggleMenu())
 
-const offerCtn = document.querySelector('#offerCtn');
+
+const offerCtn = document.querySelector('.offer-container')
+
+const getOffers = async () => {
+ const response = await fetch('./data/data.json');
+ const data = await response.json()
+
+ return data;
+}
+
+getOffers()
+.then(data => console.log('resolved', data))
+.catch(err => console.log('rejected', err.message))
+
+
+
+

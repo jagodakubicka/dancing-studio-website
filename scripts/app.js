@@ -18,6 +18,10 @@ const getOffers = async () => {
  return data;
 }
 
+const updateUI = (data) => {
+ const {} = data
+}
+
 getOffers()
 .then(data => console.log('resolved', data))
 .catch(err => console.log('rejected', err.message))
